@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import ToDoApp from './App';
+import Game from './Game';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <ToDoApp />
+    <Game />
   </React.StrictMode>,
   document.getElementById('root')
 );

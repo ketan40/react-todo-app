@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Component1 from './Component1';
 
 const axios = require('axios').default;
 
@@ -102,6 +103,7 @@ class ToDoApp extends React.Component {
           todos={this.state.data} 
           remove={this.handleRemove.bind(this)}
         />
+        <Component1 />
       </div>
     );
   }
